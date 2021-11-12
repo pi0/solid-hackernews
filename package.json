@@ -12,7 +12,7 @@
     "solid-js": "^1.0.7",
     "solid-meta": "^0.27.2",
     "solid-start": "next",
-    "solid-start-vercel-edge": "next",
+    "solid-start-vercel": "next",
     "typescript": "^4.3.5",
     "vite": "2.4.3"
   },
