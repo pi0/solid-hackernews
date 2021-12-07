@@ -1,5 +1,5 @@
 self.addEventListener("fetch", (e) => {
-  (e.request.url.includes("localhost") || e.request.url.includes("workers")) &&
+  (e.request.url.includes("localhost") || e.request.url.includes("hackernews")) &&
     e.respondWith(
       caches
         .open("solid-hn")
