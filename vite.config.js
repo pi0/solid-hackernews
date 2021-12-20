@@ -3,13 +3,5 @@ import solid from "solid-start";
 import vercel from "solid-start-vercel";
 
 export default defineConfig({
-  plugins: [solid({ adapter: vercel() })],
-  build: {
-    minify: "terser",
-    rollupOptions: {
-      output: {
-        manualChunks: undefined,
-      },
-    },
-  },
+  plugins: [solid({ adapter: vercel() })]
 });
