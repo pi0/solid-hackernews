@@ -3,12 +3,5 @@ import solid from "solid-start";
 import cloudflare from "solid-start-cloudflare-workers";
 
 export default defineConfig({
-  plugins: [solid({ adapter: cloudflare() })],
-  build: {
-    rollupOptions: {
-      output: {
-        manualChunks: undefined,
-      },
-    },
-  },
+  plugins: [solid({ adapter: cloudflare() })]
 });
