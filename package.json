@@ -8,15 +8,15 @@
   "type": "module",
   "main": "./dist/index.js",
   "devDependencies": {
-    "solid-app-router": "^0.2.1",
-    "solid-js": "^1.3.4",
+    "solid-app-router": "^0.3.0",
+    "solid-js": "1.3.9",
     "solid-meta": "0.27.3",
-    "solid-start": "0.1.0-alpha.56",
-    "solid-start-cloudflare-workers": "0.1.0-alpha.56",
+    "solid-start": "0.1.0-alpha.62",
+    "solid-start-cloudflare-workers": "0.1.0-alpha.62",
     "typescript": "^4.3.5"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=14"
   },
   "dependencies": {
     "vite-plugin-solid": "^2.2.5"
