@@ -7,14 +7,14 @@
   },
   "type": "module",
   "devDependencies": {
-    "solid-app-router": "^0.3.2",
-    "solid-js": "1.4.0-beta.6",
-    "solid-meta": "^0.27.3",
-    "solid-start": "0.1.0-alpha.78",
-    "solid-start-vercel": "0.1.0-alpha.78",
-    "typescript": "^4.3.5",
-    "vite": "2.9.9",
-    "babel-preset-solid": "1.4.0-beta.0"
+    "@solidjs/router": "^0.4.2",
+    "solid-js": "1.4.7",
+    "@solidjs/meta": "^0.28.0",
+    "solid-start": "0.1.0-alpha.99",
+    "solid-start-vercel": "0.1.0-alpha.99",
+    "typescript": "^4.4.3",
+    "undici": "^5.5.1",
+    "vite": "3.0.4"
   },
   "engines": {
     "node": ">=14"

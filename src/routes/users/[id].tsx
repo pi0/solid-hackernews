@@ -1,5 +1,5 @@
 import { Component, Show, createResource } from "solid-js";
-import { useRouteData, RouteDataFunc } from "solid-app-router";
+import { useRouteData, RouteDataFunc } from "@solidjs/router";
 import fetchAPI from "~/lib/api";
 
 interface IUser {

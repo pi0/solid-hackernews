@@ -1,4 +1,4 @@
-import { Link, useRouteData, RouteDataFunc } from "solid-app-router";
+import { Link, useRouteData, RouteDataFunc } from "@solidjs/router";
 import { Component, For, Show, createResource } from "solid-js";
 import type { IStory } from "~/types";
 import Comment from "~/components/comment";
