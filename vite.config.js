@@ -1,5 +1,5 @@
 import { defineConfig } from "vite";
-import solid from "solid-start";
+import solid from "solid-start/vite";
 import deno from "solid-start-deno";
 
 export default defineConfig({
