@@ -1,5 +1,5 @@
 import { defineConfig } from "vite";
-import solid from "solid-start";
+import solid from "solid-start/vite";
 import cloudflare from "solid-start-cloudflare-workers";
 
 export default defineConfig({
