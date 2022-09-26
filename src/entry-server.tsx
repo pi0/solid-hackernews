@@ -1,3 +1,3 @@
-import { StartServer, renderStream } from "solid-start/entry-server";
+import { StartServer, renderStream, createHandler } from "solid-start/entry-server";
 
-export default renderStream((event) => <StartServer event={event} />)();
+export default createHandler(renderStream((event) => <StartServer event={event} />));
