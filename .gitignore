@@ -1,6 +1,8 @@
 dist
 worker
+.vercel
 .solid
+functions
 
 # dependencies
 /node_modules

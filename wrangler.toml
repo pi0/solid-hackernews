@@ -1,7 +1,0 @@
-name = "hackernews"
-account_id = "bec77b03b1fb3338a921fd1c11a97aaa"
-workers_dev = true
-compatibility_date = "2022-08-04"
-main = "./dist/server.js"
-[site]
-bucket= "./dist/public"
