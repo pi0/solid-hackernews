@@ -5,7 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  ununev: npm:@pi0/unenv@1.9.0-rc.1
+  unenv: npm:@pi0/unenv@1.9.0-rc.1
 
 dependencies:
   '@solidjs/router':
@@ -1006,6 +1006,16 @@ packages:
       '@parcel/watcher-win32-arm64': 2.3.0
       '@parcel/watcher-win32-ia32': 2.3.0
       '@parcel/watcher-win32-x64': 2.3.0
+    dev: false
+
+  /@pi0/unenv@1.9.0-rc.1:
+    resolution: {integrity: sha512-sb8WiubYkhF7SIopl/QeL/NJh3OMhN2n+1P+vz9lpzd4E8PPVBlAc9Fzt8FXU8mG372bCvuWQnee6ymKSLXttg==}
+    dependencies:
+      consola: 3.2.3
+      defu: 6.1.3
+      mime: 3.0.0
+      node-fetch-native: 1.4.1
+      pathe: 1.1.1
     dev: false
 
   /@polka/url@1.0.0-next.24:
@@ -2526,7 +2536,7 @@ packages:
       radix3: 1.1.0
       ufo: 1.3.2
       uncrypto: 0.1.3
-      unenv: 1.8.0
+      unenv: /@pi0/unenv@1.9.0-rc.1
     dev: false
 
   /h3@1.9.0:
@@ -2539,7 +2549,7 @@ packages:
       radix3: 1.1.0
       ufo: 1.3.2
       uncrypto: 0.1.3
-      unenv: 1.8.0
+      unenv: /@pi0/unenv@1.9.0-rc.1
     dev: false
 
   /has-flag@3.0.0:
@@ -3176,7 +3186,7 @@ packages:
       ufo: 1.3.2
       uncrypto: 0.1.3
       unctx: 2.3.1
-      unenv: 1.8.0
+      unenv: /@pi0/unenv@1.9.0-rc.1
       unimport: 3.6.1(rollup@3.29.4)
       unstorage: 1.10.1
     transitivePeerDependencies:
@@ -4030,16 +4040,6 @@ packages:
       '@fastify/busboy': 2.1.0
     dev: false
 
-  /unenv@1.8.0:
-    resolution: {integrity: sha512-uIGbdCWZfhRRmyKj1UioCepQ0jpq638j/Cf0xFTn4zD1nGJ2lSdzYHLzfdXN791oo/0juUiSWW1fBklXMTsuqg==}
-    dependencies:
-      consola: 3.2.3
-      defu: 6.1.3
-      mime: 3.0.0
-      node-fetch-native: 1.4.1
-      pathe: 1.1.1
-    dev: false
-
   /unimport@3.6.1(rollup@3.29.4):
     resolution: {integrity: sha512-zKzbp8AQ+l8QK3XrONtUBdgBbMI8TkGh8hBYF77ZkVqMLLIAHwGSwJRFolPQMBx/5pezeRKvmu2gzlqnxRZeqQ==}
     dependencies:
@@ -4218,7 +4218,7 @@ packages:
       serve-placeholder: 2.0.1
       serve-static: 1.15.0
       ufo: 1.3.2
-      unenv: 1.8.0
+      unenv: /@pi0/unenv@1.9.0-rc.1
       unimport: 3.6.1(rollup@3.29.4)
       unstorage: 1.10.1
       vite: 4.5.0

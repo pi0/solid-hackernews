@@ -14,7 +14,7 @@
     "typescript": "^5.3.3"
   },
   "resolutions": {
-    "ununev": "npm:@pi0/unenv@1.9.0-rc.1"
+    "unenv": "npm:@pi0/unenv@1.9.0-rc.1"
   },
   "engines": {
     "node": ">=18"
