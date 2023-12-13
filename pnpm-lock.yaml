@@ -4,6 +4,9 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  ununev: npm:@pi0/unenv@1.9.0-rc.1
+
 dependencies:
   '@solidjs/router':
     specifier: ^0.10.1
